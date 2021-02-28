@@ -9,7 +9,7 @@ To compile this code, you'll need a Fortran compiler and numpy, which is package
 
 gfortran will certainly suffice.
 
-You'll also need to compile 'finterp' written by Jacob Williams (to whom the author is not connected in any way, shape, or form, and who does not endorse nor repudiate this work in any way to the author's knowledge. Please see licenses for details.) and link this dynamically against your code. You may find the source code for 'finterp' on github.
+You'll also need to compile 'finterp' written by Jacob Williams (to whom the author of this project kuraOCP is not connected in any way, shape, or form, and who does not endorse nor repudiate this work in any way to the author's knowledge. Please see licenses for details.) and link this dynamically against your code. You may find the source code for 'finterp' on github.
 
 f2py doesn't seem to like static linking, so please make sure you dynamically link.
 
