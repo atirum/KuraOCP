@@ -1,5 +1,5 @@
 # kuraOCP
-This is an implementation of a Hamilton-Jacobi-Bellman equation which gives optimal controls for a family of problems with arbitrary cost on the state and quadratic cost on the control.
+This is an implementation of a Hamilton-Jacobi-Bellman equation which gives optimal controls for a family of problems with arbitrary cost on the state and quadratic cost on the control. This was completed as a final course project for the course ENEE 762: Stochastic Control at the University of Maryland, College Park in Fall 2020 with Prof. P.S. Krishnaprasad.
 
 Details of theory are in the 'KuramotoOCP.pdf' file.
 
