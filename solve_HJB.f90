@@ -137,7 +137,7 @@ subroutine solve_HJB(n,T,dx,dt,VT,theta,shift,f,Lag,lambda,V)
         do tau = T,2,-1
             Vtau = V(:,:,tau)
             call hamiltonian(n,dx,theta,shift,Vtau,f,lambda,Lag,H1)
-            V1 = Vtau + .5d0*dt*H1
+            V1 = Vtau + dt*H1
             call hamiltonian(n,dx,theta,shift,V1,f,lambda,Lag,H2)
             V(:,:,tau-1) = .5d0*Vtau + .5d0*(V1 + dt*H2)
             ! if (modulo(tau, 1000) .eq. 0)  then
